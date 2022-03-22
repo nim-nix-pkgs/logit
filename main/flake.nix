@@ -8,8 +8,8 @@
   inputs.flakeNimbleLib.inputs.nixpkgs.follows = "nixpkgs";
   
   inputs.src-logit-main.flake = false;
+  inputs.src-logit-main.ref   = "refs/heads/main";
   inputs.src-logit-main.owner = "Miqueas";
-  inputs.src-logit-main.ref   = "main";
   inputs.src-logit-main.repo  = "Logit";
   inputs.src-logit-main.type  = "github";
   
