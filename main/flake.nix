@@ -11,6 +11,7 @@
   inputs.src-logit-main.ref   = "refs/heads/main";
   inputs.src-logit-main.owner = "Miqueas";
   inputs.src-logit-main.repo  = "Logit";
+  inputs.src-logit-main.dir   = "";
   inputs.src-logit-main.type  = "github";
   
   outputs = { self, nixpkgs, flakeNimbleLib, ...}@deps:
